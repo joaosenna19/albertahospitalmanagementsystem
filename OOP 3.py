@@ -1,8 +1,8 @@
 class Management:
     
     def __init__(self):
-        self.doctor_management = doctor_manager.py()
-        self.patient_management = PatientManagement()
+        self.doctor_management = doctor_manager()
+        self.patient_management = PatientManager()
     
     def display_menu(self):
         print("Welcome to Alberta Hospital (AH) Management system")
