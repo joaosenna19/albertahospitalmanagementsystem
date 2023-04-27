@@ -12,16 +12,18 @@ if __name__ == '__main__':
         age=29
     )
 
-    # test adding a patient to patients.txt
-    # patient_manager.add_patient_to_file()
+my_manager.display_patient_info(lucas)
 
-    print('Testing format patient info for file:')
-    print(my_manager.format_patient_info_for_file(lucas))
+# test adding a patient to patients.txt
+# patient_manager.add_patient_to_file()
 
-    print('Testing edit patient info by id:')
-    my_manager.edit_patient_info_by_id()
+print('Testing format patient info for file:')
+print(my_manager.format_patient_info_for_file(lucas))
 
-    print('Testing display patients list:')
-    my_manager.display_patients_list()
+print('Testing edit patient info by id:')
+my_manager.edit_patient_info_by_id()
 
-    # All functions are tested transitively by calling the ones above
+print('Testing display patients list:')
+my_manager.display_patients_list()
+
+# All functions are tested transitively by calling the ones above
